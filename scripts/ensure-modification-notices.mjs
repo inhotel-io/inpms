@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { extname } from 'node:path';
 
 const comment = 'Modified by inHotel Sàrl for inPMS; see NOTICE for upstream provenance.';
+const exemptFiles = new Set(['LICENSE', 'NOTICE', 'THIRD_PARTY_LICENSES']);
 const args = process.argv.slice(2);
 const checkOnly = args.includes('--check');
 const baseIndex = args.indexOf('--base');
@@ -15,6 +16,7 @@ const files = execFileSync('git', diffArguments, { encoding: 'utf8' })
 const missing = [];
 
 for (const file of files) {
+  if (exemptFiles.has(file)) continue;
   if (/\.json$|\.lock$|^pnpm-lock\.yaml$/.test(file)) continue;
   const extension = extname(file).toLowerCase();
   const prefix = extension === '.md' || extension === '.html'

@@ -1,3 +1,4 @@
+<!-- Modified by inHotel Sàrl for inPMS; see NOTICE for upstream provenance. -->
 # inPMS Licensing and Branding Design
 
 ## Goal
