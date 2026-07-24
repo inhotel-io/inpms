@@ -53,7 +53,7 @@ test('primary user-facing documentation uses inPMS branding', () => {
     'apps/api/public/index.html',
     'apps/booking/README.md',
     'tools/haip-connect-gpt/README.md',
-    'tools/haip-connect-gPT/CHATGPT-GPT.md',
+    'tools/haip-connect-gpt/CHATGPT-GPT.md',
     'prompts/FIRST_SESSION_BOOTSTRAP.md',
   ];
 
@@ -67,7 +67,7 @@ test('primary user-facing documentation uses inPMS branding', () => {
     'apps/dashboard/index.html': ['telivity-'],
     'apps/dashboard/public/booking-preview.html': ['haip-', 'haip_', 'HAIPDEMO'],
     'tools/haip-connect-gpt/README.md': ['HAIP_', 'haip_', 'haip-', 'haip-connect-gpt'],
-    'tools/haip-connect-gPT/CHATGPT-GPT.md': ['HAIP_', 'haip_', 'haip-connect-gpt'],
+    'tools/haip-connect-gpt/CHATGPT-GPT.md': ['HAIP_', 'haip_', 'haip-connect-gpt'],
     'prompts/FIRST_SESSION_BOOTSTRAP.md': ['HAIP_BUILD_PLAN', 'HAIP_KNOWLEDGE_BASE', 'haip-'],
   };
 

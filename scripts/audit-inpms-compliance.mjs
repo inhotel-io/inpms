@@ -34,7 +34,7 @@ const userFacingFiles = [
   'apps/dashboard/index.html',
   'apps/dashboard/public/booking-preview.html',
   'tools/haip-connect-gpt/README.md',
-  'tools/haip-connect-gPT/CHATGPT-GPT.md',
+  'tools/haip-connect-gpt/CHATGPT-GPT.md',
   'prompts/FIRST_SESSION_BOOTSTRAP.md',
 ];
 

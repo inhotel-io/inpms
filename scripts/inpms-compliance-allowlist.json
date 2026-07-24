@@ -52,7 +52,7 @@
       "reason": "Existing gateway environment, database, source path, and deployment identifiers."
     },
     {
-      "path": "tools/haip-connect-gPT/CHATGPT-GPT.md",
+      "path": "tools/haip-connect-gpt/CHATGPT-GPT.md",
       "patterns": ["HAIP_", "haip_", "haip-connect-gpt"],
       "reason": "Existing gateway environment and deployment identifiers."
     },
