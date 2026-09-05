@@ -13,7 +13,7 @@ import {
   rooms,
   roomTypes,
   ratePlans,
-} from '@telivityhaip/database';
+} from '@inhotel-io/database';
 import { DRIZZLE } from '../../database/database.module';
 import { WebhookService } from '../webhook/webhook.service';
 import { RoomStatusService } from '../room/room-status.service';
