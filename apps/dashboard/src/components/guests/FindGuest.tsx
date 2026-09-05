@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from '@tanstack/react-query';
 import { Search, Plus, User, X, CheckCircle2, ShieldCheck } from 'lucide-react';
-import { checkFnrhComplete } from '@telivityhaip/shared';
+import { checkFnrhComplete } from '@inhotel-io/shared';
 import { api } from '../../lib/api';
 import { useProperty } from '../../context/PropertyContext';
 import CreateGuestModal from './CreateGuestModal';

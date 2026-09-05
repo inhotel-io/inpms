@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { ShieldAlert } from 'lucide-react';
-import { validateCpf, calculateAge } from '@telivityhaip/shared';
+import { validateCpf, calculateAge } from '@inhotel-io/shared';
 import { api } from '../../lib/api';
 import type { ParsedIdDocument } from '../../lib/id-document-swipe';
 import { useProperty } from '../../context/PropertyContext';

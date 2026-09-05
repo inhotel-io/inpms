@@ -20,7 +20,7 @@ import {
   formatCpf,
   calculateAge,
   checkFnrhComplete,
-} from '@telivityhaip/shared';
+} from '@inhotel-io/shared';
 import { api } from '../lib/api';
 import { useProperty } from '../context/PropertyContext';
 import StatusBadge from '../components/ui/StatusBadge';
